@@ -1,0 +1,35 @@
+header {
+  display: inline-flex;
+  font-family: veranda;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#my {
+  color: aquamarine;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container {
+
+}
+
+.column {
+
+}
+
+.column.large {
+  width: 630px
+}
+
+.column.medium {
+  width: 300px
+}
+
+.column.small {
+  width: 240px
+}
