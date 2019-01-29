@@ -1,25 +1,38 @@
 header {
   display: inline-flex;
+  width: 100%;
   font-family: veranda;
   font-size: 14px;
   font-weight: bold;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom: 1px solid black;
 }
 
 #my {
   color: aquamarine;
 }
 
+#top {
+  border: thin solid black;
+}
+
 nav {
-  display: flex;
-  justify-content: space-around;
+  width: 100%;
 }
 
 .container {
-
+  display: flex;
+  border: thin solid black;
 }
 
 .column {
+  display: inline-flex;
+  border: medium solid black;
+}
 
+section, h1 {
+  border: thin solid black;
 }
 
 .column.large {
