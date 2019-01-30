@@ -1,3 +1,5 @@
+/*Header*/
+
 header {
   display: inline-flex;
   width: 100%;
@@ -29,6 +31,7 @@ nav {
   width: 50%;
 }
 
+/*Main Container*/
 .container {
   display: flex;
   flex-direction: row;
@@ -36,31 +39,35 @@ nav {
 }
 
 .column {
-  display: inline-flex;
+  display: flex;
   flex-wrap: wrap;
   border: thin solid black;
 }
 
-section, h1 {
+section {
   border: thin solid black;
 }
 
-.column.large {
-  display: inline-flex;
+.large {
+  display: flex;
+  justify-content: center;
   width: 630px
 }
 
-.column.medium {
+.medium {
   display: flex;
+  justify-content: flex-start;
   width: 300px
 }
 
-.column.small {
+.small {
   display: flex;
+  flex-direction: column;
   width: 240px
 }
 
 div {
+  display: flex;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
@@ -82,20 +89,67 @@ p {
 #mother {
   background-image: url("resources/images/Main_Story.png");
   width: 630px;
-  font-size: 40px;
+  height: 300px;
 }
 
 #earth {
   background-image: url("resources/images/Fall_Season.png");
-  width: 630px;
+  width: 300px;
+  height: 300px;
 }
 
 #cats {
   background-image: url("resources/images/cat_ceo.png");
   width: 300px;
+  height: 300px;
 }
 
 #research {
   background-image: url("resources/images/Hipster_Cameraman.png");
-  width: 630px;
+  width: 300px;
+  height: 300px;
+  color: white;
+}
+
+.picture {
+  color: white;
+}
+
+#main {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.bites {
+  margin: 0 0 0 0;
+  background-color: WhiteSmoke;
+  font-family: Veranda;
+  font-weight: bold;
+  color: DimGray;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+footer {
+  display: flex;
+  
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+#MYT {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+#copy {
+
 }
