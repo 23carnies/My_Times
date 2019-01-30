@@ -4,7 +4,7 @@ header {
   font-family: veranda;
   font-size: 14px;
   font-weight: bold;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: center;
   border-bottom: 1px solid black;
 }
@@ -14,21 +14,31 @@ header {
 }
 
 #top {
+  display: flex;
   border: thin solid black;
+  width: 100%;
+}
+
+a {
+  color: black;
 }
 
 nav {
-  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
 }
 
 .container {
   display: flex;
+  flex-direction: row;
   border: thin solid black;
 }
 
 .column {
   display: inline-flex;
-  border: medium solid black;
+  flex-wrap: wrap;
+  border: thin solid black;
 }
 
 section, h1 {
@@ -36,13 +46,56 @@ section, h1 {
 }
 
 .column.large {
+  display: flex;
   width: 630px
 }
 
 .column.medium {
+  display: flex;
   width: 300px
 }
 
 .column.small {
+  display: flex;
   width: 240px
+}
+
+div {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+h1 {
+  color: black;
+  font-family: Georgia;
+  font-size: 30px
+}
+
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+#mother {
+  background-image: url("resources/images/img-story-main.png");
+  width: 630px;
+  font-size: 40px;
+}
+
+#earth {
+  background-image: url("resources/images/img-story-2.png");
+  width: 630px;
+}
+
+#cats {
+  background-image: url("resources/images/img-story-1.png");
+  width: 300px;
+}
+
+#research {
+  background-image: url("resources/images/img-story-3.png");
+  width: 630px;
 }
